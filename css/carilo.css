@@ -13,9 +13,9 @@ body {
     justify-content: space-between;
 }
 
-.smaller {
+#floor>.smaller {
     height: auto;
-    width: 45%;
+    width: 100%;
 }
 
 .smaller-left {
@@ -81,6 +81,7 @@ body {
     color: #482079;
     font-weight: 800;
     border: 1px solid #f8d42d;
+    border-radius: 5px;
 }
 
 .form-inline-mobile {
@@ -114,6 +115,11 @@ body {
     width: 100%;
     text-align: center;
     color: #482079;
+}
+
+.standard>.header>#feature {
+    padding: 1rem 0rem 0.3rem;
+    margin: 0rem;
 }
 
 .stand>.card-body>p.card-text {
@@ -244,6 +250,7 @@ p.card-text {
     font-size: 30px;
     color: #482079;
     line-height: 37px;
+    padding: 0.7rem 0rem 1rem;
 }
 
 .purplo {
@@ -480,6 +487,15 @@ p.card-text {
 .mini>a {
     color: #F8D42D;
     text-decoration: none;
+    transition: 0.5s;
+}
+
+.mini>a::after {
+    color: #F8D42D;
+}
+
+.mini>a:hover {
+    color: #ffffff;
 }
 
 .coll>ul>li>a>img {
@@ -554,7 +570,11 @@ ul>.channels {
     }
     .form-inline-mobile {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+    }
+    #floor>.smaller {
+        height: auto;
+        width: 95%;
     }
     .purple {
         border-bottom: 2px solid #482079;
@@ -603,6 +623,9 @@ ul>.channels {
         height: fit-content;
         width: 100%;
         margin-bottom: 1rem;
+    }
+    .standard>.header>#feature {
+        padding: 1rem 0rem 1rem;
     }
     .stand {
         width: 11rem !important;
@@ -671,6 +694,10 @@ ul>.channels {
         margin-bottom: -5px;
     }
     /* how it works */
+    #how {
+        padding: 0.5rem 0rem 1rem;
+        margin: 0rem;
+    }
     .send-package {
         background: #ffffff;
         box-shadow: 0px 0px 0px 0px transparent;
@@ -726,7 +753,7 @@ ul>.channels {
         width: 11rem !important;
         height: 9rem;
         padding: 0.5rem;
-        margin: 0rem;
+        margin: 0.2rem;
     }
 }
 
