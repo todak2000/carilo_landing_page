@@ -1,207 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">    
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="theme-color" content="#000000" />
-        <meta
-        name="description"
-        content="Carilo which is a decentralized Logistics as a Platform application is poised to positively disrupt organized way of way-billing items between two locations in a more efficient manner."
-        />
-        <!-- CSS FILES -->
-        <link rel="stylesheet" href="bootstrap-4.5.2/css/bootstrap.css"/>
-        <link rel="stylesheet" href="css/carilo.css"/>   
-        <link rel="shortcut icon" href="img/favicon.png" />
 
-        <!-- GOOGLE FONTS -->
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Carilo which is a decentralized Logistics as a Platform application is poised to positively disrupt organized way of way-billing items between two locations in a more efficient manner." />
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="bootstrap-4.5.2/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/carilo.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
 
-        <!-- JS FILES -->
-        <script src="js/jquery-3.1.1.js"></script>
-        <script src="bootstrap-4.5.2/js/bootstrap.min.js"></script>
-    
-        <title>Carilo: Waybilling just made easier</title>
-    </head>
-    <body>      
-        <section id="top">
-            <!-- nav bar section -->
-            <nav class="navbar navbar-light nav-carilo">
-                <a class="navbar-brand">
-                    <img src="img/Carilo.svg" class="smaller-left"/>
-                </a>
-                <form class="form-inline">
-                    <img src="img/google_play.svg" class="smaller pr-2"/>
-                    <img src="img/apple_play.svg" class="smaller"/>
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+
+    <!-- JS FILES -->
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="bootstrap-4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Carilo: Waybilling just made easier</title>
+</head>
+
+<body>
+    <section id="top">
+        <!-- nav bar section -->
+        <nav class="navbar navbar-light nav-carilo">
+            <a class="navbar-brand">
+                <img src="img/Carilo.svg" class="smaller-left" />
+            </a>
+            <form class="form-inline">
+                <a href="#" target="_blank" id="floor"><img src="img/google_play.svg" class="smaller pr-2" /></a>
+                <a href="#" target="_blank" id="floor"> <img src="img/apple_play.svg" class="smaller" /></a>
+            </form>
+        </nav>
+        <!-- lower- top section -->
+        <nav class="navbar navbar-light firm">
+            <div class="navbar-brand pt-5 nav-mobile " id="sale">
+                <p id="waybill">Waybilling</p>
+                <p id="made-easier">made Easier</p>
+                <p class="write-up">Ship your cargo, equipment, items to </p>
+                <p class="write-up">any part of the country with ease. </p>
+                <p class="write-up">We connect you with verified and vetted </p>
+                <p class="write-up">carriers at competitive yet cost</p>
+                <p class="write-up">effective prices.</p>
+                <form class="form-inline-mobile mt-4 mb-4">
+                    <a href="#" target="_blank" id="floor"><img src="img/google_play.svg" class="smaller pr-2" /></a>
+                    <a href="#" target="_blank" id="floor"> <img src="img/apple_play.svg" class="smaller" /></a>
                 </form>
+                <a href="#how_it_works"><button class="mt-5 discover">Discover More <img src="img/arrow-right.svg"  style="margin-left: 20px ;"/></button></a>
+            </div>
+            <div class="form-inline-img sense">
+
+                <img src="img/bg2.svg" class="img-bg" />
+            </div>
+
+        </nav>
+    </section>
+    <!--  section features-->
+    <section class=" standard ">
+
+        <div class="header">
+            <h1 id="feature">Features</h1>
+        </div>
+        <!-- card 1 -->
+        <div class="card stand walletter" style="width: 14rem;">
+            <img src="img/escrow.svg" id="wallet" class="card-img-top" alt="Escrow">
+            <div class="card-body">
+                <h5 class="card-title">Escrow system</h5>
+                <p class="card-text">
+                    A financial security feature to help users trust the process
+                </p>
+            </div>
+        </div>
+        <!-- card 2 -->
+        <div class="card stand bida" style="width: 14rem;">
+            <img src="img/bidding.svg" id="bid" class="card-img-top" alt="bidding">
+            <div class="card-body">
+                <h5 class="card-title">Bidding system</h5>
+                <p class="card-text" id="bidder">
+                    Carriers bid for Packages offering their own competitive pricng
+
+                </p>
+            </div>
+        </div>
+        <!-- card 3 -->
+
+        <div class="card stand chatter" style="width: 14rem;">
+            <img src="img/tracking.svg" id="chatting" class="card-img-top" alt="tracker">
+            <div class="card-body">
+                <h5 class="card-title">Tracker</h5>
+                <p class="card-text" id="chat">
+                    Users can monitor their packages in real-time
+
+                </p>
+            </div>
+        </div>
+        <!-- card 4 -->
+
+        <div class="card stand emailer" style="width: 14rem;">
+            <img src="img/verificate.svg" id="email" class="card-img-top" alt="verify">
+            <div class="card-body">
+                <h5 class="card-title">User Verification</h5>
+                <p class="card-text">
+                    All users are verified and vetted to ensure trust
+                </p>
+            </div>
+        </div>
+        <!-- card 5 -->
+
+        <div class="card  stand rater" style="width: 14rem;">
+            <img src="img/rating.svg" id="star" class="card-img-top" alt="rating">
+            <div class="card-body">
+                <h5 class="card-title">Ratings</h5>
+                <p class="card-text" id="rating">Carriers can be rated after delivery of packages </p>
+            </div>
+        </div>
+        <!-- card 6 -->
+        <div class="card stand disputter" style="width: 14rem;">
+            <img src="img/pricing.svg" class="card-img-top" alt="pricing">
+            <div class="card-body">
+                <h5 class="card-title">Flexible Pricing</h5>
+                <p class="card-text">Package owners set their own price
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOw IT WORKS -->
+    <section id="how_it_works">
+        <p id="how">How it <span id="works">works</span></p>
+        <div id="select_user_mobile">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active send-package" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
+                        <!-- <img src="img/send_package.svg" class="mt-3 img-mobile" /> -->
+                        <p id="to-send" class="but">To Send out a Package</p>
+                        <!-- <p id="package1"></p> -->
+                        <p id="send-mobile" class="rat">Send</p>
+                    </a>
+                    <a class="nav-item nav-link dispatch-package" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">
+                        <!-- <img src="img/dispatch.svg" class="mt-3 img-mobile" /> -->
+                        <p id="to-dispatch" class="butter">To Dispatch out a Package</p>
+                        <!-- <p id="package2"></p> -->
+                        <p id="send-mobile2" class="cat">Dispatch</p>
+                    </a>
+                </div>
             </nav>
-              <!-- lower- top section -->
-              <nav class="navbar navbar-light">
-                <div class="navbar-brand pt-5 nav-mobile">
-                    <p id="waybill">Waybilling</p>
-                    <p id="made-easier">made Easier</p>
-                    <p class="write-up">Ship your cargo, equipment, items  to </p>
-                    <p class="write-up">any part of the country with ease. </p>
-                    <p class="write-up">We connect you with verified and vetted </p>
-                    <p class="write-up">carriers at competitive yet cost</p>
-                    <p class="write-up">effective prices.</p>
-                    <form class="form-inline-mobile mt-4 mb-4">
-                        <img src="img/google_play.svg" class="smaller pr-2"/>
-                        <img src="img/apple_play.svg" class="smaller"/>
-                    </form>
-                    <a href="#how_it_works"><button class="mt-5 discover">Discover More <img src="img/arrow-right.svg"  style="margin-left: 20px ;"/></button></a>
+        </div>
+        <!-- send package tab -->
+        <div class="tab-content " id="nav-tabContent">
+            <div class="tab-pane fade faders show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <!-- create and verify -->
+                <div class="row pt-3 text-left purple">
+                    <div class="left-side col-sm-6 col-xs-12">
+                        <img src="img/1.svg" class="img-fluid" />
+                    </div>
+                    <div class="right-side col-sm-6 col-xs-12">
+                        <p class="number">01</p>
+                        <p class="texty">Create and Verifty your Account</p>
+                        <p class="small-text">Ship your cargo, equipment, items to any part ofthe country with ease.</p>
+                        <p class="small-text">We connect you with verified andvetted carriers at competitive yet cost effective prices.</p>
+                    </div>
                 </div>
-                <form class="form-inline-img">
-                    <img src="img/bg2.svg"  class="img-bg"/>
-                </form>
-              </nav>
-        </section>
-        <section id="how_it_works">
-            <p id="how">How it <span id="works">works</span></p>
-            <div id="select_user_mobile">
-                <nav>
-                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                      <a class="nav-item nav-link active send-package" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
-                        <img src="img/send_package.svg" class="mt-3 img-mobile" />
-                        <p id="to-send">To Send</p>
-                        <p id="package1">Package</p>
-                        <p id="send-mobile">Send</p>
-                      </a>
-                      <a class="nav-item nav-link dispatch-package" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">
-                        <img src="img/dispatch.svg" class="mt-3 img-mobile"/>
-                        <p id="to-dispatch">To Dispatch</p>
-                        <p id="package2">Package</p>
-                        <p id="send-mobile2">Dispatch</p>
-                      </a>
+                <!-- create packages -->
+                <div class="row pt-3 text-left purple">
+                    <div class="left-side col-sm-6 col-xs-12">
+                        <p class="number">02</p>
+                        <p class="texty">Create and Submit Package</p>
+                        <p class="small-text">Ship your cargo, equipment, items to any part ofthe country with ease.</p>
+                        <p class="small-text">We connect you with verified andvetted carriers at competitive yet cost effective prices.</p>
                     </div>
-                </nav>
+                    <div class="right-side col-sm-6 col-xs-12">
+                        <img src="img/2.svg" class="img-fluid" />
+                    </div>
+                </div>
+                <!-- approval -->
+                <div class="row pt-3 text-left purple">
+                    <div class="left-side col-sm-6 col-xs-12">
+                        <img src="img/3.svg" class="img-fluid" />
+                    </div>
+                    <div class="right-side col-sm-6 col-xs-12">
+                        <p class="number">03</p>
+                        <p class="texty">Approve, Accept and Deliver Package to Carrier</p>
+                        <p class="small-text">Ship your cargo, equipment, items to any part ofthe country with ease.</p>
+                        <p class="small-text">We connect you with verified andvetted carriers at competitive yet cost effective prices.</p>
+                    </div>
+                </div>
+                <!-- track package -->
+                <div class="row pt-3 text-left">
+                    <div class="left-side col-sm-6 col-xs-12">
+                        <p class="number">04</p>
+                        <p class="texty">Track your Package until Delivery</p>
+                        <p class="small-text">Ship your cargo, equipment, items to any part ofthe country with ease.</p>
+                        <p class="small-text">We connect you with verified andvetted carriers at competitive yet cost effective prices.</p>
+                    </div>
+                    <div class="right-side col-sm-6 col-xs-12">
+                        <img src="img/4.svg" class="img-fluid" />
+                    </div>
+                </div>
             </div>
-            <!-- send package tab -->
-            <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                    <!-- create and verify -->
-                    <div class="row pt-3 text-left purple">
-                        <div class="left-side col-sm-6 col-xs-12">
-                            <img src="img/1.svg" class="img-fluid" />
-                        </div>
-                        <div class="right-side col-sm-6 col-xs-12">
-                            <p class="number">01</p>
-                            <p class="texty">Create and Verifty your Account</p>
-                            <p class="small-text">Ship your cargo, equipment, items  to any part ofthe country with ease.</p>
-                            <p class="small-text">We connect you with verified andvetted carriers at competitive yet cost effective prices.</p>
-                        </div>
+
+            <!-- dispatch package tab -->
+            <div class="tab-pane fade faders" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <!-- create and verify dispatch-->
+                <div class="row pt-3 text-left yellow">
+                    <div class="left-side col-sm-6 col-xs-12">
+                        <img src="img/1b.svg" class="img-fluid" />
                     </div>
-                    <!-- create packages -->
-                    <div class="row pt-3 text-left purple">
-                        <div class="left-side col-sm-6 col-xs-12">
-                            <p class="number">02</p>
-                            <p class="texty">Create and Submit Package</p>
-                            <p class="small-text">Ship your cargo, equipment, items  to any part ofthe country with ease.</p>
-                            <p class="small-text">We connect you with verified andvetted carriers at competitive yet cost effective prices.</p> 
-                        </div>
-                        <div class="right-side col-sm-6 col-xs-12">
-                            <img src="img/2.svg" class="img-fluid" />
-                        </div>
+                    <div class="right-side col-sm-6 col-xs-12">
+                        <p class="number-b">01</p>
+                        <p class="texty-b">Create and Verifty your Account</p>
+                        <p class="small-text">Ship your cargo, equipment, items to any part ofthe country with ease.</p>
+                        <p class="small-text">We connect you with verified andvetted carriers at competitive yet cost effective prices.</p>
                     </div>
-                    <!-- approval -->
-                    <div class="row pt-3 text-left purple">
-                        <div class="left-side col-sm-6 col-xs-12">
-                            <img src="img/3.svg" class="img-fluid" />
-                        </div>
-                        <div class="right-side col-sm-6 col-xs-12">
-                            <p class="number">03</p>
-                            <p class="texty">Approve, Accept and Deliver Package to Carrier</p>
-                            <p class="small-text">Ship your cargo, equipment, items  to any part ofthe country with ease.</p>
-                            <p class="small-text">We connect you with verified andvetted carriers at competitive yet cost effective prices.</p>
-                        </div>
+                </div>
+                <!-- bid packages -->
+                <div class="row pt-3 text-left yellow">
+                    <div class="left-side col-sm-6 col-xs-12">
+                        <p class="number-b">02</p>
+                        <p class="texty-b">Find & Bid for packages going to your Destination</p>
+                        <p class="small-text">Ship your cargo, equipment, items to any part ofthe country with ease.</p>
+                        <p class="small-text">We connect you with verified andvetted carriers at competitive yet cost effective prices.</p>
                     </div>
-                    <!-- track package -->
-                    <div class="row pt-3 text-left">
-                        <div class="left-side col-sm-6 col-xs-12">
-                            <p class="number">04</p>
-                            <p class="texty">Track your Package until Delivery</p>
-                            <p class="small-text">Ship your cargo, equipment, items  to any part ofthe country with ease.</p>
-                            <p class="small-text">We connect you with verified andvetted carriers at competitive yet cost effective prices.</p> 
-                        </div>
-                        <div class="right-side col-sm-6 col-xs-12">
-                            <img src="img/4.svg" class="img-fluid" />
-                        </div>
+                    <div class="right-side col-sm-6 col-xs-12">
+                        <img src="img/2b.svg" class="img-fluid" />
                     </div>
+                </div>
+                <!-- approval -->
+                <div class="row pt-3 text-left yellow">
+                    <div class="left-side col-sm-6 col-xs-12">
+                        <img src="img/3b.svg" class="img-fluid" />
+                    </div>
+                    <div class="right-side col-sm-6 col-xs-12">
+                        <p class="number-b">03</p>
+                        <p class="texty-b">Get approval and Collect Package</p>
+                        <p class="small-text">Ship your cargo, equipment, items to any part ofthe country with ease.</p>
+                        <p class="small-text">We connect you with verified andvetted carriers at competitive yet cost effective prices.</p>
+                    </div>
+                </div>
+                <!-- deliver packages -->
+                <div class="row pt-3 text-left">
+                    <div class="left-side col-sm-6 col-xs-12">
+                        <p class="number-b">04</p>
+                        <p class="texty-b">Deliver and Get paid</p>
+                        <p class="small-text">Ship your cargo, equipment, items to any part ofthe country with ease.</p>
+                        <p class="small-text">We connect you with verified andvetted carriers at competitive yet cost effective prices.</p>
+                    </div>
+                    <div class="right-side col-sm-6 col-xs-12">
+                        <img src="img/4b.svg" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="footer pt-4">
+        <div id="footer-inner">
+            <div class="footer-one">
+                <img src="img/Carilo.svg" class="img-footer" />
+                <p class="mini mt-4">2020 @ carilo technologies</p>
+                <p class="mini"><a href="#"> Terms of Service</a></p>
+            </div>
+            <div class="footer-one">
+                <p class="mt-5 mini"><a href="#"> How it works</a></p>
+                <p class="mini"><a href="#"> Contact us</a></p>
+            </div>
+            <div class="footer-one coll">
+                <p class="mt-5 mini"> <a href="mailto:info@carilo.com">info@carilo.com</a> </p>
+                <p class="mini"> <a href="#"> Provacy Policy</a></p>
+                <div class="mini ">
+                    <ul class="channels">
+                        <li>
+                            <a href="#">
+                                <img src="img/facebook.svg" alt="facebook" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/whatsapp.svg" alt="whatsApp" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/instagram.svg" alt="instagram" /></a>
+                        </li>
+                    </ul>
                 </div>
 
-                <!-- dispatch package tab -->
-                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                    <!-- create and verify dispatch-->
-                    <div class="row pt-3 text-left pink">
-                        <div class="left-side col-sm-6 col-xs-12">
-                            <img src="img/1b.svg" class="img-fluid" />
-                        </div>
-                        <div class="right-side col-sm-6 col-xs-12">
-                            <p class="number-b">01</p>
-                            <p class="texty-b">Create and Verifty your Account</p>
-                            <p class="small-text">Ship your cargo, equipment, items  to any part ofthe country with ease.</p>
-                            <p class="small-text">We connect you with verified andvetted carriers at competitive yet cost effective prices.</p>
-                        </div>
-                    </div>
-                    <!-- bid packages -->
-                    <div class="row pt-3 text-left pink">
-                        <div class="left-side col-sm-6 col-xs-12">
-                            <p class="number-b">02</p>
-                            <p class="texty-b">Find & Bid for packages going to your Destination</p>
-                            <p class="small-text">Ship your cargo, equipment, items  to any part ofthe country with ease.</p>
-                            <p class="small-text">We connect you with verified andvetted carriers at competitive yet cost effective prices.</p>
-                        </div>
-                        <div class="right-side col-sm-6 col-xs-12">
-                            <img src="img/2b.svg" class="img-fluid" />
-                        </div>
-                    </div>
-                    <!-- approval -->
-                    <div class="row pt-3 text-left pink">
-                        <div class="left-side col-sm-6 col-xs-12">
-                            <img src="img/3b.svg" class="img-fluid" />
-                        </div>
-                        <div class="right-side col-sm-6 col-xs-12">
-                            <p class="number-b">03</p>
-                            <p class="texty-b">Get approval and Collect Package</p>
-                            <p class="small-text">Ship your cargo, equipment, items  to any part ofthe country with ease.</p>
-                            <p class="small-text">We connect you with verified andvetted carriers at competitive yet cost effective prices.</p>
-                        </div>
-                    </div>
-                    <!-- deliver packages -->
-                    <div class="row pt-3 text-left">
-                        <div class="left-side col-sm-6 col-xs-12">
-                            <p class="number-b">04</p>
-                            <p class="texty-b">Deliver and Get paid</p>
-                            <p class="small-text">Ship your cargo, equipment, items  to any part ofthe country with ease.</p>
-                            <p class="small-text">We connect you with verified andvetted carriers at competitive yet cost effective prices.</p>
-                        </div>
-                        <div class="right-side col-sm-6 col-xs-12">
-                            <img src="img/4b.svg" class="img-fluid" />
-                        </div>
-                    </div>
-                </div>
-                
             </div>
-        </section>
-        <!-- footer -->
-        <section class="footer pt-4">
-            <div id="footer-inner">
-                <div class="footer-one">
-                    <img src="img/Carilo.svg" class="img-footer" />
-                    <p class="mini mt-4">2020 @ carilo technologies</p>
-                    <p class="mini">Terms of Service</p>
-                </div>
-                <div class="footer-one">
-                    <p class="mt-5 mini">How it works</p>
-                    <p class="mini">Contact us</p>
-                </div>
-                <div class="footer-one">
-                    <p class="mt-5 mini">info@carilo.com</p>
-                    <p class="mini">Provacy Policy</p>
-                </div>
-            </div>
-        </section>
-    </body>
+        </div>
+    </section>
+
+    <script src="js/carilo.js"></script>
+</body>
 
 </html>
